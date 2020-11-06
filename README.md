@@ -14,7 +14,7 @@ Edit .bashrc or .zshrc and add this line
 ### Create virtual environment for project
 cd to your project directory
 
-`cd ~/at.backend-base`
+`cd ~/backend-base-flask`
 
 create virtual environment
 
