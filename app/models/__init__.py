@@ -24,23 +24,6 @@ for (module_loader, name, ispkg) in pkgutil.iter_modules([pkg_dir]):
 
 # Old manual import
 
-from .Affiliation import Affiliation
-from .AuthRoles import AuthRoles
-from .Campaign import Campaign
-from .CampaignMeta import CampaignMeta
 from .Config import Config
-from .Datafeed import Datafeed
-from .Merchant import Merchant
-from .Publisher import Publisher
-from .PublisherFollower import PublisherFollower
-from .ReportClicksTmp import ReportClicksTmp
-from .ReportPublisherPerformance import ReportPublisherPerformance
 from .Staff import Staff
 from .StaffConfig import StaffConfig
-from .Transaction import Transaction
-
-from .Billing import Billing
-from .CrosscheckTransaction import CrosscheckTransaction
-from .Invoice import Invoice
-from .InvoiceCreation import InvoiceCreation
-from .PaymentPolicy import PaymentPolicy
